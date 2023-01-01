@@ -12,13 +12,13 @@ function sort(property) {
 
     if(currentSort == property) { ascending = !ascending; } else { ascending = true; } //idk how to get that alternating thing to happen nicely lol
 
-    if(typeof(games[0][property]) == "string"){
-        if(ascending) { games.sort((a, b) => a[property].localeCompare(b[property])); }
-        else { games.reverse((a, b) => a[property].localeCompare(b[property])); }
-    } else {
-        if(ascending) { games.sort((a, b) => a[property] - b[property]); }
-        else { games.reverse((a, b) => a[property] - b[property]); }
-    }
+    if(ascending) {
+        if(typeof(games[0][property]) == "string"){
+            games.sort((a, b) => a[property].localeCompare(b[property]));
+        } else {
+            games.sort((a, b) => a[property] - b[property]);
+        }
+    } else { games.reverse(); }
     currentSort = property;
     console.log(games);
     update();

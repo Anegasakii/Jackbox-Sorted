@@ -2,13 +2,19 @@
 body { color: white; }
 
 table {
-	border: 1px solid;
+	border: 2px solid var(--lighter);
 	padding: 2px;
 	font-size: 120%;
 	margin: auto;
 }
+
 th, td { padding: 1px 5px; }
-button, th, input, label { cursor: pointer; }
+button, th[onclick], input, label { cursor: pointer; }
+th[onclick]:hover {
+	animation-name: textToMain;
+	animation-duration: 0.25s;
+	animation-fill-mode: forwards;
+}
 
 #filters {
 	background-color: var(--darker);
