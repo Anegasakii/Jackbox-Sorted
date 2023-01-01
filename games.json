@@ -1,0 +1,317 @@
+[
+{
+	"pack": 1,
+	"name": "You Don't Know Jack",
+	"max": 4,
+	"type": "Trivia",
+	"summary": ""
+},
+{
+	"pack": 1,
+	"name": "drawful",
+	"max": 8,
+	"type": "Drawing",
+	"summary": "Guess what the drawing is."
+},
+{
+	"pack": 1,
+	"name": "Word Spud",
+	"max": 8,
+	"type": "Writing",
+	"summary": "A group writing effort."
+},
+{
+	"pack": 1,
+	"name": "Lie Swatter",
+	"max": 100,
+	"type": "Trivia",
+	"summary": ""
+},
+{
+	"pack": 1,
+	"name": "Fibbage XL",
+	"max": 8,
+	"type": "Trivia",
+	"summary": "Lie to your friends!"
+},
+{
+	"pack": 2,
+	"name": "Fibbage 2",
+	"max": 8,
+	"type": "Trivia",
+	"summary": "Lie to your friends!"
+},
+{
+	"pack": 2,
+	"name": "Earwax",
+	"max": 8,
+	"type": "Other",
+	"summary": ""
+},
+{
+	"pack": 2,
+	"name": "Bidiots",
+	"max": 6,
+	"type": "Drawing",
+	"summary": ""
+},
+{
+	"pack": 2,
+	"name": "Quiplash XL",
+	"max": 8,
+	"type": "Writing",
+	"summary": "Be funny!"
+},
+{
+	"pack": 2,
+	"name": "Bomb Corp",
+	"max": 4,
+	"type": "Other",
+	"summary": ""
+},
+{
+	"pack": 3,
+	"name": "Quiplash 2",
+	"max": 8,
+	"type": "Writing",
+	"summary": "Be funny!"
+},
+{
+	"pack": 3,
+	"name": "Trivia Murder Party",
+	"max": 8,
+	"type": "Trivia",
+	"summary": "Be smart, and don't die :)"
+},
+{
+	"pack": 3,
+	"name": "Guesspionage",
+	"max": 8,
+	"type": "Trivia",
+	"summary": ""
+},
+{
+	"pack": 3,
+	"name": "Fakin' It",
+	"max": 6,
+	"type": "Other",
+	"summary": "Someone's lying; who is it?"
+},
+{
+	"pack": 3,
+	"name": "Tee K.O.",
+	"max": 8,
+	"type": "Drawing",
+	"summary": "Draw, name, and vote on shirts."
+},
+{
+	"pack": 4,
+	"name": "Fibbage 3",
+	"max": 8,
+	"type": "Trivia",
+	"summary": "Lie to your friends!"
+},
+{
+	"pack": 4,
+	"name": "Survive the Internet",
+	"max": 8,
+	"type": "Writing",
+	"summary": "Take people out of context."
+},
+{
+	"pack": 4,
+	"name": "Monster Seeking Monster",
+	"max": 7,
+	"type": "Writing",
+	"summary": "Date your friends!"
+},
+{
+	"pack": 4,
+	"name": "Bracketeering",
+	"max": 16,
+	"type": "Writing",
+	"summary": ""
+},
+{
+	"pack": 4,
+	"name": "Civic Doodle",
+	"max": 8,
+	"type": "Drawing",
+	"summary": "Improve on what came before."
+},
+{
+	"pack": 5,
+	"name": "You Don't Know Jack: Full Stream",
+	"max": 8,
+	"type": "Trivia",
+	"summary": ""
+},
+{
+	"pack": 5,
+	"name": "Split the Room",
+	"max": 8,
+	"type": "Writing",
+	"summary": "Be controversial."
+},
+{
+	"pack": 5,
+	"name": "Mad Verse City",
+	"max": 8,
+	"type": "Writing",
+	"summary": "Fill-in-the-blank rap battles."
+},
+{
+	"pack": 5,
+	"name": "Zeeple Dome",
+	"max": 6,
+	"type": "Other",
+	"summary": ""
+},
+{
+	"pack": 5,
+	"name": "Patently Stupid",
+	"max": 8,
+	"type": "Drawing",
+	"summary": "Draw the solutions to problems."
+},
+{
+	"pack": 6,
+	"name": "Trivia Murder Party 2",
+	"max": 8,
+	"type": "Trivia",
+	"summary": "Be smart, and don't die :)"
+},
+{
+	"pack": 6,
+	"name": "Role Models",
+	"max": 6,
+	"type": "Other",
+	"summary": ""
+},
+{
+	"pack": 6,
+	"name": "Joke Boat",
+	"max": 8,
+	"type": "Writing",
+	"summary": "Be funny!"
+},
+{
+	"pack": 6,
+	"name": "diction*arium",
+	"max": 8,
+	"type": "Writing",
+	"summary": ""
+},
+{
+	"pack": 6,
+	"name": "Push the Button",
+	"max": 10,
+	"type": "Other",
+	"summary": "among us."
+},
+{
+	"pack": 7,
+	"name": "Quiplash 3",
+	"max": 8,
+	"type": "Writing",
+	"summary": "Be funny!"
+},
+{
+	"pack": 7,
+	"name": "The Devils and the Details",
+	"max": 8,
+	"type": "Other",
+	"summary": ""
+},
+{
+	"pack": 7,
+	"name": "Champ'd Up",
+	"max": 8,
+	"type": "Drawing",
+	"summary": "Draw the best of the best."
+},
+{
+	"pack": 7,
+	"name": "Talking Points",
+	"max": 8,
+	"type": "Other",
+	"summary": "Here's a slideshow, have fun."
+},
+{
+	"pack": 7,
+	"name": "Blather 'Round",
+	"max": 6,
+	"type": "Other",
+	"summary": "Like charades, but even better."
+},
+{
+	"pack": 8,
+	"name": "Job Job",
+	"max": 10,
+	"type": "Writing",
+	"summary": "Apply for a job with your friends' words."
+},
+{
+	"pack": 8,
+	"name": "The Poll Mine",
+	"max": 10,
+	"type": "Other",
+	"summary": ""
+},
+{
+	"pack": 8,
+	"name": "drawful Animate",
+	"max": 10,
+	"type": "Drawing",
+	"summary": "Guess the animation."
+},
+{
+	"pack": 8,
+	"name": "The Wheel of Enormous Proportions",
+	"max": 8,
+	"type": "Trivia",
+	"summary": ""
+},
+{
+	"pack": 8,
+	"name": "Weapons Drawn",
+	"max": 8,
+	"type": "Drawing",
+	"summary": ""
+},
+{
+	"pack": 9,
+	"name": "Fibbage 4",
+	"max": 8,
+	"type": "Trivia",
+	"summary": "Lie to your friends!"
+},
+{
+	"pack": 9,
+	"name": "Roomerang",
+	"max": 9,
+	"type": "Writing",
+	"summary": ""
+},
+{
+	"pack": 9,
+	"name": "Junktopia",
+	"max": 8,
+	"type": "Writing",
+	"summary": "Upsell some random junk."
+},
+{
+	"pack": 9,
+	"name": "Nonsensory",
+	"max": 8,
+	"type": "Other",
+	"summary": "What do you think they think?"
+},
+{
+	"pack": 9,
+	"name": "Quixort",
+	"max": 10,
+	"type": "Trivia",
+	"summary": "Order random items for random criteria."
+}
+]

@@ -1,0 +1,103 @@
+@import url(https://anegasakii.github.io/base.css);
+body { color: white; }
+
+table {
+	border: 1px solid;
+	padding: 2px;
+	font-size: 120%;
+	margin: auto;
+}
+th, td { padding: 1px 5px; }
+button, th, input, label { cursor: pointer; }
+
+#filters {
+	background-color: var(--darker);
+	border-radius: 5px;
+	margin: 10px;
+	padding: 20px;
+	width: calc((100vw - 1200px)/2);
+}
+
+h2 { margin: 5px 0 0; font-size: 130%; }
+
+.hidden {
+	display: none;
+}
+
+.scrollWith {
+	position: fixed;
+	top: 15px;
+}
+
+button { margin: 0; }
+
+#filters button {
+	font-size: 120%;
+	margin: 0 5px 5px;
+}
+
+label, input[type="number"] {
+	margin: 0 5px 0 8px;
+	font-size: 110%;
+}
+
+input[type="checkbox"] {
+	margin: 0;
+}
+
+input[type="number"] { max-width: 80%; cursor: text; }
+
+.flexgroup {
+	display: inline-flex; 
+	justify-content: space-between;
+	align-items: center;
+}	
+
+.flex { display: flex; flex-wrap:wrap; }
+
+/*recoloured checkboxes taken from https://stackoverflow.com/a/63192288 */
+
+input[type="checkbox"]:checked {
+	background: white;
+}
+
+input[type="checkbox"] {
+	cursor: pointer;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	outline: 0;
+	background: var(--darkest);
+	height: 16px;
+	width: 16px;
+	border: 1px solid var(--main);
+}
+  
+input[type="checkbox"]:after {
+	content: ' ';
+	position: relative;
+	border: solid #fff;
+	display: none;
+}
+
+@keyframes checkboxRound {
+	100% {
+		border-radius: 5px;
+	}
+}
+
+input[type="checkbox"]:hover {
+	animation-name: checkboxRound;
+	animation-duration: 0.25s;
+	animation-fill-mode: forwards;
+}
+
+@media (max-width: 1400px) {
+	body { padding: 0 10px; }
+	.scrollWith {position: relative; margin: 0 30px 30px; }
+	#filters {
+		width: 80%;
+		margin: 10px auto;
+	}
+}
+
