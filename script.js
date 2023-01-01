@@ -1,7 +1,9 @@
 let games;
+
 fetch("games.json")
     .then((response) => response.json())
-    .then((json) => games = new Object(json));
+    .then((json) => {games = new Object(json); update()})
+
 
 //things like player count and the types of games I didn't personally know taken from https://jackboxgames.fandom.com/wiki/The_Jackbox_Party_Pack_(series)#Games
 
@@ -61,10 +63,8 @@ function update() {
         <td>${current.summary}</td>
 </tr>
 `
-        console.log(bodyhtml); //so I have to neither make the placeholder manually nor learn how to time things
     }
     document.getElementById("table body").innerHTML = bodyhtml;
-
 }
 
 function toggleList() {
@@ -72,3 +72,4 @@ function toggleList() {
     let name = document.getElementById("listToggle");
     if(blacklist) { name.innerHTML = "Blacklist"; } else { name.innerHTML = "Whitelist"}
 }
+
