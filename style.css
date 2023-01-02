@@ -36,10 +36,16 @@ h2 { margin: 5px 0 0; font-size: 130%; }
 }
 
 button { margin: 0; }
+button:active { color:var(--darkest); background-color: var(--lighter); }
 
 #filters button {
 	font-size: 120%;
 	margin: 0 5px 5px;
+}
+
+.selectAll {
+	font-size: 100% !important;
+	border-width: 1px;
 }
 
 label, input[type="number"] {

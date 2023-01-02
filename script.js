@@ -28,9 +28,9 @@ function sort(property) {
 
 let blacklist = true;
 
-function update() {
+const packs = 9; const types = ["Writing", "Trivia", "Drawing", "Other"];
 
-    const packs = 9; const types = ["Writing", "Trivia", "Drawing", "Other"];
+function update() {
     let filteredPacks = []; let filteredTypes = [];
     for(let i = 1; i <= packs; i++){
         if(document.getElementById(`pack${i}`).checked) { filteredPacks.push(i); }
@@ -70,6 +70,24 @@ function update() {
 function toggleList() {
     blacklist = !blacklist;
     let name = document.getElementById("listToggle");
-    if(blacklist) { name.innerHTML = "Blacklist"; } else { name.innerHTML = "Whitelist"}
+    if(blacklist) { name.innerHTML = "Blacklist"; } else { name.innerHTML = "Whitelist"; }
 }
 
+let deselect = false;
+function selectAll(list){
+    let clicked = document.getElementById(`${list}All`);
+    if(deselect){clicked.innerHTML = 'Select all'} else { clicked.innerHTML = 'Deselect all'; }
+    if(list == 'type') {
+        for(let i = 0; i < types.length; i++){
+            let box = document.getElementById(`type${types[i]}`);
+            box.checked = !deselect;
+        }
+    } else {
+        for (let i = 1; i <= packs; i++){
+            let box = document.getElementById(`pack${i}`);
+            box.checked = !deselect
+        }
+    }
+
+    deselect = !deselect;
+}
